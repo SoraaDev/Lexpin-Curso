@@ -1,0 +1,94 @@
+/* Variables */
+/*
+    Las variables son cajas que contienen informacion
+    y que se pueden reutilizar en cualquier parte del codigo.
+*/
+:root {
+    --main-color: #ff0000;
+    --secondary-color: #00ff00;
+    --text-color: #ffffff;
+    --background-color: #000000;
+    --border-color: #000000;
+    --font-color: #ffffff;
+    --font-color-secondary: #ffffff;
+    --font-color-tertiary: #ffffff;
+    --font-color-quaternary: #ffffff;
+    --font-color-quinary: #ffffff;
+    --font-color-sextary: #ffffff;
+    --font-color-septenary: #ffffff;
+}
+
+/* Estilos en archivo */
+h1 {
+    background-color: rgba(127, 255, 212, 0.545);
+}
+
+/* Class */
+.subtitulos {
+    background-color: rgba(69, 175, 113, 0.678);
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* id */
+#parrafoEspecial {
+    color: rgb(138, 44, 226);
+    background-color: white;
+}
+
+/* Selector universal*/
+* {
+    color: rgb(222, 184, 135);
+}
+
+/* Selector por clase */
+p.subtitulos {
+    color: rgb(138, 44, 226);
+}
+
+/* Selector por clase especifica a un tag*/
+p.subtitulos, h1.subtitulos {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Selector por multiples tag */
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Selector por etiqueta div adicionada a una clase especifica en p*/
+div p.subtitulos {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 25px 0px;
+    margin-top: 0px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+/* class para reducir # de elemntos */
+.color-rojo {
+    color: red;
+}
+
+.border-rojo {
+    /* border-left: 1px red solid;
+    border-width: 10px;
+    border-color: var(--main-color);
+    border-style:  solid;
+    border-top-style: groove;
+    border-radius: 60px;
+    box-shadow: 10px 10px var(black);
+    text-shadow: 10px 10px var(black);
+    border-width: 10px 20px 30px 40px;
+    */
+    border-radius: 50px;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.836);
+    border-width: 10px 5px 5px 5px;
+    border-style: groove;
+    border-color: var(--main-color);
+}
+
+
